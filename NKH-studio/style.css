@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.task-list,
+.task-list__item {
+  margin-top: 20px;
+}
+
+.task {
+  border: 1px dashed lightgray;
+}
+
+.task__title {
+  padding-left: 15px;
+  text-decoration: underline;
+}
+
+.catalog {
+  width: 620px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog-list__item {
+  margin-top: 5px;
+}
+
+.item {
+  border: 1px solid darkgrey;
+}
+
+.task--2 .catalog-list,
+.task--3 .catalog-list,
+.task--4 .catalog-list {
+  flex-direction: column;
+}
+
+.task--3 .item:first-child {
+  align-self: center;
+}
+
+.task--4 .catalog-list {
+  align-items: flex-end;
+}
+
+.task--5 .catalog-list {
+  display: block;
+}
+
+.task--5 .catalog-list__item {
+  display: inline-block;
+}
+
+.task--6 .catalog-list__item {
+  float: left;
+}
+
+.task__table {
+  margin-top: 20px;
+}
+
+.table {
+  width: 620px;
+  margin: 0 auto;
+  
+
+  font-size: 20px;
+}
+
+.table__cell {
+  width: 150px;
+  height: 150px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  border: 1px solid black;
+}
+
+.task--8 .table {
+  display: table;
+  border-collapse: collapse;
+}
+
+.task--8 .table__row {
+  display: table-row;
+}
+
+.task--8 .table__cell {
+  display: table-cell;
+}
+
+.task__menu {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.menu {
+  width: 500px;
+
+  color: white;
+}
+
+.menu__category {
+  margin-top: -1px;
+  
+  border: 1px solid grey;
+  background-color: blue;
+}
+
+.menu__category:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.menu__category-title {
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.menu__category--opened {
+  background-color: darkblue;
+}
+
+.menu__list {
+  display: none;
+}
+
+.menu__category--opened .menu__list {
+  display: block;
+}
+
+.menu__item {
+  margin-top: -1px;
+  padding: 5px;
+
+  font-size: 16px;
+  border: 1px solid grey;
+  background-color: lightblue;
+  color: black;
+}
