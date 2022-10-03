@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.403a803f.css",
+    "main.js": "/static/js/main.26761049.js",
+    "static/media/shopping-bag.svg": "/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/crown.svg": "/static/media/crown.207ae289b221bfaca0108507f9bb2f85.svg",
+    "index.html": "/index.html",
+    "main.403a803f.css.map": "/static/css/main.403a803f.css.map",
+    "main.26761049.js.map": "/static/js/main.26761049.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.403a803f.css",
+    "static/js/main.26761049.js"
+  ]
+}
